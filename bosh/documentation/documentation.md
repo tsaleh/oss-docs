@@ -1380,7 +1380,8 @@ min_cli_version: 0.19.6
 blobstore:
   provider: s3
   options:
-    bucket_name: <code style="color: red;">bosh-sample-release</code>```
+    bucket_name: <code style="color: red;">bosh-sample-release</code>
+```
 
 Next create the file `private.yml` somewhere **outside** of the repository and create a soft link to it in the `config` directory. This is to prevent you from accidentally committing the S3 credentials to the repository and thus exposing secret information.
 
